@@ -7,7 +7,7 @@ A modern javascript fetch api example for reference and understanding the workin
 GET method is used to retrive data from server.
 
 ```js
-fetch("https://url.com/") // api url to send request
+fetch("https://jsonplaceholder.typicode.com/posts/") // api url to send request
 .catch(err => {
 	return console.log(err);
 })
@@ -24,7 +24,7 @@ fetch("https://url.com/") // api url to send request
 POST method is used to send data to server, the code of POST request is same like GET method but an extra data inserted in this request which is require to save or perform a certain operation on server.
 
 ```js
-fetch("https://url.com/", { // api url to send request
+fetch("https://jsonplaceholder.typicode.com/posts/", { // api url to send request
 	method: "POST",
     body: JSON.stringify({
     	name: 'John Doe',
