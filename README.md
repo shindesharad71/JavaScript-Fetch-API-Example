@@ -2,6 +2,10 @@
 
 A modern javascript fetch api example for reference and understanding the working of fetch api.
 
+## What is fetch API?
+The Fetch API provides an interface for fetching resources (including across the network). It will seem familiar to anyone who has used XMLHttpRequest, but the new API provides a more powerful and flexible feature set.
+_(souce: MDN)_
+
 ## GET Method
 
 GET method is used to retrive data from server.
