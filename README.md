@@ -8,7 +8,7 @@ _(souce: MDN)_
 
 ## ```GET``` Method
 
-GET method is used to retrive data from server.
+GET method is used to **retrive data from server.**
 
 ```js
 fetch("https://jsonplaceholder.typicode.com/posts/") // api url to send request
@@ -25,7 +25,7 @@ fetch("https://jsonplaceholder.typicode.com/posts/") // api url to send request
 
 ## ```POST``` Method
 
-POST method is used to send data to server, the code of POST request is same like GET method but an extra data inserted in this request which is require to save or perform a certain operation on server.
+POST method is used **to send data to server**, the code of POST request is same like GET method but an extra data inserted in this request which is require to save or perform a certain operation on server.
 
 ```js
 fetch("https://jsonplaceholder.typicode.com/posts/", { // api url to send request
