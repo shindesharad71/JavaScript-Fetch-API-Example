@@ -6,7 +6,7 @@ A modern javascript fetch api example for reference and understanding the workin
 The Fetch API provides an interface for fetching resources (including across the network). It will seem familiar to anyone who has used XMLHttpRequest, but the new API provides a more powerful and flexible feature set.
 _(souce: MDN)_
 
-## GET Method
+## ```GET``` Method
 
 GET method is used to retrive data from server.
 
@@ -23,7 +23,7 @@ fetch("https://jsonplaceholder.typicode.com/posts/") // api url to send request
 })
 ```
 
-## POST Method
+## ```POST``` Method
 
 POST method is used to send data to server, the code of POST request is same like GET method but an extra data inserted in this request which is require to save or perform a certain operation on server.
 
